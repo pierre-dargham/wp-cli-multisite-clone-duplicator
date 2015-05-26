@@ -1,0 +1,13 @@
+{
+	"name": "pierre-dargham/wp-cli-site-duplicate",
+	"description": "Duplicate a site in a multisite install",
+	"homepage": "https://github.com/pierre-dargham/wp-cli-site-duplicate",
+	"license": "GPLv2",
+	"require": {
+		"php": ">=5.2.0"
+	},
+    "autoload": {
+        "files": [
+            "command.php"
+        ]
+}
