@@ -29,7 +29,7 @@
     ],
     "support": {
 		"issues": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator/issues",
-		"source": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator",
+        "source": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator",
         "forum": "https://wordpress.org/support/plugin/multisite-clone-duplicator",
         "docs": "https://wordpress.org/plugins/multisite-clone-duplicator/other_notes/"
 	},
