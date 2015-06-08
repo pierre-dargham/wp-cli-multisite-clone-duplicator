@@ -1,13 +1,37 @@
 {
-	"name": "pierre-dargham/wp-cli-site-duplicate",
-	"description": "Duplicate a site in a multisite install",
-	"homepage": "https://github.com/pierre-dargham/wp-cli-site-duplicate",
-	"license": "GPLv2",
-	"require": {
-		"php": ">=5.2.0"
+    "name": "pierre-dargham/wp-cli-multisite-clone-duplicator",
+    "type": "command",
+    "description": "Add a `wp site duplicate` command to multisite networks",
+    "version": "1.4.0",
+    "keywords": ["wp-cli", "multisite", "duplication", "duplicate", "clone", "cloning"],
+    "homepage": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator",
+    "license": "GPL-2.0",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "authors": [
+        {
+            "name": "Pierre Dargham",
+            "homepage": "https://github.com/pierre-dargham",
+            "email": "pierre.dargham@gmail.com",
+            "role": "Developer"
+        }
+        {
+            "name": "Julien Oger",
+            "homepage": "https://github.com/julienOG",
+            "email": "julien.oger@globalis-ms.com",
+            "role": "Developer"
+        }
+        {
+            "name": "GLOBALIS media systems",
+            "homepage": "http://www.globalis-ms.com/",
+        }
+    ],
+    "support": {
+		"issues": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator/issues",
+		"source": "https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator"
 	},
     "autoload": {
-        "files": [
-            "command.php"
-        ]
+        "files": [ "command.php" ]
+    }
 }
